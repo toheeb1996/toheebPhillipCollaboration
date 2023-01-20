@@ -5,7 +5,7 @@
 }
 
 #welcome-section {
- min-height: 100vh;
+ max-height: 100vh;
  background-color: #2B2C2F;
 }
 
@@ -29,7 +29,6 @@ ul li {
  display: flex;
  align-items: center;
  height: 10vh;
- /* background-color: blue; */
 }
 
 ul li a {
@@ -49,8 +48,7 @@ a:hover {
 }
 
 #div1 {
- /* background-color: rgb(77, 77, 28); */
- min-height: 90vh;
+ min-height: 100vh;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -72,33 +70,55 @@ h1 {
  font-style: italic;
 }
 
-.project-tile{
-    background-color: rgb(84, 75, 142);
-    min-height: 90vh;
-    color: white;
-    text-align: center;
-    /* display: flex; */
-    /* align-items: center; */
-  
-  }
-  
-  .text-div{
-    height: 15vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-  }
-  
-  img{
-    height: 50vh;
-    width: 30%;
-  }
-  
-  .image1, .image2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  
-  }
+.project-tile {
+ background-color: #45567D;
+ min-height: 200vh;
+ color: white;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.text-div {
+ height: 15vh;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2.2rem;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-top: 7rem;
+}
+
+u {
+ padding-bottom: 5px;
+ text-decoration: none;
+ border-bottom: 3px solid;
+}
+
+
+img {
+ height: 50vh;
+ width: 27%;
+}
+
+.image1,
+.image2 {
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 5rem;
+}
+
+button{
+   margin-top: 3rem;
+ background-color: #303841;
+ height: 6vh;
+ width: 8rem;
+ text-align: center;
+ font-size: 1.5rem;
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ border: none;
+}
