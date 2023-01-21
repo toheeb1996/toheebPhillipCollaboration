@@ -71,3 +71,34 @@ h1 {
  font-weight: lighter;
  font-style: italic;
 }
+
+.project-tile{
+    background-color: rgb(84, 75, 142);
+    min-height: 90vh;
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+  
+  }
+  
+  .text-div{
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  
+  img{
+    height: 50vh;
+    width: 30%;
+  }
+  
+  .image1, .image2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  
+  }
